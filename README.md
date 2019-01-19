@@ -18,6 +18,9 @@ Navigate to the client folder and run `npm install` then `npm start` in the comm
 ## What I did
 - Set up an Express server, which serves the react app and returns the car data
 - Set up the react app to render the car list returned from the server
+- Added filters for price and make
+- Added functionality to click on picture and view in carousel
+- Added auto rotate for the carousel
 
 ## Problems encountered (mostly due to lack of time)
 - The css for the header and footer
