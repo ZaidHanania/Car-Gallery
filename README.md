@@ -5,7 +5,7 @@ A simple image gallery for car data using Node, Express, Webpack, React, and Red
 Run the `npm install` command inside your command line in the main folder.
 
 ### Running The App
-Run `node server.js` in the main folder in your command line to start the server and go to http://localhost:3000 in your browser to view the app.
+Run `npm start` in the main folder in your command line to start the server and go to http://localhost:3000 in your browser to view the app.
 
 ### Running The React App Seperately
 Navigate to the client folder and run `npm install` then `npm start` in the command line to start the application, then go to http://localhost:8080 in your browser to view the applicatione. Note that the application will not work if the Node server is not runnning. 
