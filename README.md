@@ -2,7 +2,7 @@
 A simple image gallery for car data using Node, Express, Webpack, React, and Redux. 
 
 ## Getting Started
-Run the `npm install` command inside your command line in the main folder.
+Run the `npm install nodemon && npm install` command inside your command line in the main folder.
 
 ### Running The App
 Run `npm start` in the main folder in your command line to start the server and go to http://localhost:3000 in your browser to view the app.
