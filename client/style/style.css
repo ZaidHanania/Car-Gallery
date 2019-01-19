@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
+
+p {
+  font-size: 12px;
+  padding: 0;
+  margin: 5px;
+}
+
+h4 {
+  color: white;
+  margin: 0;
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  overflow-x: hidden;
+  padding-top: 160px;
+  text-align: center;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imageContainer {
+  padding: 5px;
+  flex: 1 0 30%;
+  margin: 5px; 
+  border: 3px solid #3EB3EB;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.imageContainer:hover {
+  transform: scale(1.03);
+  transition: all 0.5s;
+}
+
+.image {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.carousel {
+  max-width: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.arrow {
+  margin: 20px 50px;
+  cursor: pointer;
+  transition: color 0.4s;
+  color: #3EB3EB;
+}
+
+.arrow:hover {
+  color: #CDECFE;
+}
+
+.back {
+  font-size: 16px;
+}
+
+.back:hover {
+  color: #3EB3EB;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.header {
+  background-image: url('../header.png');
+  height: 150px; 
+}
