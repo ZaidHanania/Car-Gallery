@@ -22,11 +22,6 @@ Navigate to the client folder and run `npm install` then `npm start` in the comm
 - Added functionality to click on picture and view in carousel
 - Added auto rotate for the carousel
 
-## Problems encountered (mostly due to lack of time)
-- The css for the header and footer
-- Checking if image url is broken
-- Throttling the price filter
-
 ## To Do Next
 - Fix header css
 - Add footer
